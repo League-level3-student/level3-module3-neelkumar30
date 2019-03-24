@@ -1,17 +1,21 @@
 package _01_AnimalFarm;
 
-public class Cow extends Animal {
+public class Cat extends Animal{
+
+	public Cat() {
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public void makeNoise() {
 		// TODO Auto-generated method stub
-		System.out.println("Moooooo");
+		System.out.println("Meow");
 	}
 
 	@Override
 	public void name() {
 		// TODO Auto-generated method stub
-		name = "Nadal";
+		name = "Mesut Ozil";
 	}
 
 }
